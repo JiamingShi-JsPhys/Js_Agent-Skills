@@ -31,7 +31,7 @@ There are two standard ways to get a skill:
 
 ### Option 2: Clone the Repository
 ```bash
-git clone https://github.com/JiamingShi-phys/Js_Agent-Skills.git
+git clone https://github.com/JiamingShi-JsPhys/Js_Agent-Skills.git
 cd Js_Agent-Skills/Js_task-organizer   # or another skill folder
 ```
 
