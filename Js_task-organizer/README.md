@@ -480,7 +480,7 @@ MIT License, see [LICENSE](LICENSE).
 ## Report issues
 
 Use the repo-wide entry point: see the **"Report issues"** section in the
-repository's top-level `README.md` (email `jiaming_shi_phys@outlook.com`,
+repository's top-level `README.md` (email `jiamingshi_phys@outlook.com`,
 subject prefix `agent-skill_report`). Reporters who submit a clear,
 reproducible issue (or a fix) are listed in the acknowledgement section of
 the next release's notes.
