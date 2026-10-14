@@ -1,3 +1,4 @@
+>[English](README.md) · [中文说明](README_zh.md) 
 # Js_Agent-Skills：面向 AI Agent 的自包含技能集合
 
 `Js_Agent-Skills` 是施嘉名（Jiaming Shi）开发维护的 Agent 技能仓库。每个子文件夹是一个独立、自包含的 Skill 包，无需安装或构建，即可直接挂载到任意支持 Skill 规范的 AI Agent 环境。
