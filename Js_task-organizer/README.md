@@ -1,3 +1,4 @@
+>[English](README.md) · [中文说明](README_zh.md) 
 # Js_task-organizer
 
 > A task organizer skill by Jiaming Shi. Its core is two jobs: keeping the
