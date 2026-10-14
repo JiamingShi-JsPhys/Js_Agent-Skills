@@ -137,7 +137,7 @@ python -m scripts.run broadcast <root> [--ai] [--max-files N] [--keywords K]
 
 把下面这段指令复制给 Agent，它会自动定位并获取本技能：
 
-> 请访问 https://github.com/JiamingShi-JsPhys/Js_Agent-Skills/tree/main/Js_task-organizer，阅读该文件夹下的 `README.md`，并按照其中的说明下载或安装本技能。
+> 请访问 https://github.com/JiamingShi-JsPhys/Js_Agent-Skills/tree/main/Js_task-organizer ，阅读该文件夹下的 `README.md`，并按照其中的说明下载或安装本技能。
 
 你只需要把技能名告诉 Agent，剩下的交给它。
 
