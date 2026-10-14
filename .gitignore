@@ -58,3 +58,7 @@ tmp/
 "*.cov.log" 
 "*.full.log" 
 # local backup
+"# local config" 
+"*.cov.log" 
+"*.full.log" 
+# local backup
