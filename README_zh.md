@@ -5,9 +5,11 @@
 
 ## 技能
 
-| 文件夹 | 技能 | 一句话说明 |
+| 文件夹 | 技能 | 说明 |
 | :--- | :--- | :--- |
-| `Js_task-organizer/` | Js_task-organizer | 把杂乱的任务文件夹整理成经过验证的三段式结构。 |
+| `Js_task-organizer/` | Js_task-organizer | 把杂乱的任务文件夹整理成经过验证的三段式结构（`material` / `process` / `results`，外加工具自身的 `_broadcast/` 索引目录）。包含强制的前 / 后快照、8 项校验（C1–C8）与失败自动回滚；并提供广播中心（位于 `_broadcast/` 的只读上下文压缩索引，让后续会话先读摘要、再只打开真正需要的原始文档）与启动期只读诊断（`doctor`）。其它特性：基于出处的归档、操作历史、智能去重、YAML 放置规则与每日日志。 |
+| `Js_formula-validator/` | Js_formula-validator | 物理 / 数学公式的确定性校验器：对方程或表达式跑五层独立检查（解析、量纲、极限/奇点、数值蒙特卡洛抽样、符号证明），输出 通过 / 失败 / 冲突 / 未知 判定与机器可读报告；附带 CLI（`scripts/cli.py`）与零依赖 MCP 服务器（`mcp_server/server.py`）。 |
+| `Js_multi-dim-manager/` | Js_multi-dim-manager | 多维度实验状态管理器：把参数空间笛卡尔展开成多轮独立实验，每轮走统一插件契约（一条 shell 命令 + JSON 输入输出 + 退出码 0/1/2），对声明的「关键路径」做内容寻址快照，每轮追加进只写式 JSONL 审计日志，并支持非破坏性回滚（默认新建目录）。纯标准库，可选 PyYAML 解析 YAML 配置；附带 CLI（`scripts/run.py`）。 |
 | *（计划中）* | *待定* | *面向科研、数据处理、AI 工作流的独立技能包将陆续加入。* |
 
 ## 如何获取与安装
