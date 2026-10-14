@@ -1,3 +1,4 @@
+>[English](README.md) · [中文说明](README_zh.md) 
 # Js_task-organizer
 
 > 任务整理助手（Task Organizer）是施嘉名（Jiaming Shi）开发的一个 skill——核心是 **文件夹整理** 与 **全局统筹**。
