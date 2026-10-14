@@ -131,6 +131,7 @@ python -m scripts.run broadcast <root> [--ai] [--max-files N] [--keywords K]
 ## 下载与安装
 
 **方式一 —— 下载 Release 包（推荐）**
+
 打开仓库的 Releases 页面，下载最新的 zip 压缩包，解压即可——无需安装步骤。
 
 **方式二 —— 让 Agent 自行获取**
