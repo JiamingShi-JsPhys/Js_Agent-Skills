@@ -1,4 +1,4 @@
-> [中文说明](README_zh.md) · [English](README.md)
+>[English](README.md) · [中文说明](README_zh.md) 
 # Js_Agent-Skills: A Collection of Self-Contained Skills for AI Agents
 
 `Js_Agent-Skills` is a repository of Agent Skills developed and maintained by Jiaming Shi. It aims to provide standardized, auditable, and reliable local execution capabilities for various AI Agent harnesses.
