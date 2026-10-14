@@ -75,7 +75,7 @@ print(result.summary_lines())
 
 首选：在本仓库的 **Issues** 页面提交问题。
 
-备选：发送邮件至 `jiaming_shi_phys@outlook.com`
+备选：发送邮件至 `jiamingshi_phys@outlook.com`
 
 - **邮件主题**：必须包含前缀 `agent-skill_report`，并注明具体技能与简要问题。
   - 示例：`agent-skill_report Js_task-organizer: dedupe move fails on read-only file`
