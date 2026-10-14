@@ -247,10 +247,12 @@ Two main threads: **folder organization** and **whole-task coordination**.
 ## Download and install
 
 **Option 1 — Download the release zip (recommended)**
+
 Open the repository's Releases page, download the latest zip, and unzip it —
 no install step required.
 
 **Option 2 — Let an Agent fetch it**
+
 Copy the following instruction to your Agent, and it will locate and fetch
 the skill automatically:
 
@@ -259,6 +261,7 @@ Please visit https://github.com/JiamingShi-JsPhys/Js_Agent-Skills/tree/main/Js_t
 You only need to tell the Agent the skill name; it handles the rest.
 
 **Option 3 — Clone the repository**
+
 ```bash
 git clone https://github.com/JiamingShi-JsPhys/Js_Agent-Skills.git
 cd Js_Agent-Skills/Js_task-organizer
