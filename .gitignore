@@ -54,4 +54,7 @@ process/verification_report.md
 # Local scratch
 scratch/
 tmp/
-*.tmp
+*.tmp"# local config" 
+"*.cov.log" 
+"*.full.log" 
+# local backup
