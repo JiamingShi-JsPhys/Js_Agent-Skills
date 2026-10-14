@@ -133,14 +133,21 @@ python -m scripts.run broadcast <root> [--ai] [--max-files N] [--keywords K]
 **方式一 —— 下载 Release 包（推荐）**
 打开仓库的 Releases 页面，下载最新的 zip 压缩包，解压即可——无需安装步骤。
 
-**方式二 —— 克隆仓库**
+**方式二 —— 让 Agent 自行获取**
+
+把下面这段指令复制给 Agent，它会自动定位并获取本技能：
+
+> 请访问 https://github.com/JiamingShi-JsPhys/Js_Agent-Skills/tree/main/Js_task-organizer，阅读该文件夹下的 `README.md`，并按照其中的说明下载或安装本技能。
+
+你只需要把技能名告诉 Agent，剩下的交给它。
+
+**方式三 —— 克隆仓库**
 
 ```bash
-git clone https://github.com/JiamingShi-phys/Js_Agent-Skills.git
+git clone https://github.com/JiamingShi-JsPhys/Js_Agent-Skills.git
 cd Js_Agent-Skills/Js_task-organizer
 ```
-
-环境要求：Python 3.10+。`openpyxl` 为可选依赖（仅用于生成 Excel 索引；不安装也能正常生成 Markdown 索引）。除 `openpyxl` 外的所有特性均仅使用标准库实现，不引入新依赖。
+环境要求：Python 3.10+。openpyxl 为可选依赖（仅用于生成 Excel 索引；不安装也能正常生成 Markdown 索引）。除 openpyxl 外的所有特性均仅使用标准库实现，不引入新依赖。
 
 ---
 
@@ -341,5 +348,5 @@ MIT License，详见 [LICENSE](LICENSE)。
 
 ## 报告问题与反馈
 
-请使用仓库统一的入口提交问题：参见仓库根目录 `README.md` 中的 “Report issues” 部分（邮箱 `jiaming_shi_phys@outlook.com`，主题前缀 `agent-skill_report`）。提交清晰、可复现 Issue（或修复代码）的贡献者，将被列入下一个版本发布说明的致谢名单。
+请使用仓库统一的入口提交问题：参见仓库根目录 `README.md` 中的 “Report issues” 部分（邮箱 `jiamingshi_phys@outlook.com`，主题前缀 `agent-skill_report`）。提交清晰、可复现 Issue（或修复代码）的贡献者，将被列入下一个版本发布说明的致谢名单。
 、
