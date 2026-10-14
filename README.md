@@ -70,7 +70,7 @@ This repository follows strict open-source engineering standards. If you wish to
 
 Preferred: Open an issue on the repository's **Issues** page.
 
-Alternative: Send an email to `jiaming_shi_phys@outlook.com`.
+Alternative: Send an email to `jiamingshi_phys@outlook.com`.
 
 - **Subject**: Must include the prefix `agent-skill_report`, the specific skill name, and a brief description.
   - Example: `agent-skill_report Js_task-organizer: dedupe move fails on read-only file`
