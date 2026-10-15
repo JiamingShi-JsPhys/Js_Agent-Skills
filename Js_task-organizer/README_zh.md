@@ -128,7 +128,7 @@ python -m scripts.run broadcast <root> [--ai] [--max-files N] [--keywords K]
 
 ---
 
-## 下载与安装
+## 获取与使用
 
 **方式一 —— 下载 Release 包（推荐）**
 
