@@ -24,14 +24,21 @@ This repository is a growing skill library. Each skill is independent and does n
 
 ## How to Obtain and Install
 
-There are two standard ways to get a skill:
+There are three standard ways to get a skill:
 
 ### Option 1: Download a Release Package (Recommended)
 1. Go to the repository's **Releases** page (right sidebar or tag list).
 2. Download the latest Release zip for the skill you want (e.g., `Js_task-organizer-v1.2.1.zip`).
 3. Unzip it to any directory. No installation step required.
 
-### Option 2: Clone the Repository
+### Option 2: Fetch via an Agent
+Copy the instruction below to your Agent; it will locate and download the matching skill for you:
+
+> Visit the repository https://github.com/JiamingShi-JsPhys/Js_Agent-Skills, find the skill folder you need (name the skill or describe its function), read the `README.md` inside that folder, and follow its instructions to download or install the skill.
+
+Each skill folder's `README.md` already documents how to obtain that skill. You only need to tell the Agent the skill name — it handles the rest.
+
+### Option 3: Clone the Repository
 ```bash
 git clone https://github.com/JiamingShi-JsPhys/Js_Agent-Skills.git
 cd Js_Agent-Skills/Js_task-organizer   # or another skill folder
