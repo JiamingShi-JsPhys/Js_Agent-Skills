@@ -23,7 +23,7 @@
 
 把下面这段指令复制给 Agent，它会自动定位并下载对应技能：
 
-> 请访问仓库 https://github.com/JiamingShi-JsPhys/Js_Agent-Skills，找到我需要的技能文件夹（注明是什么技能名字或者功能），阅读该文件夹下的 `README.md`，并按照其中的说明下载或安装该技能。
+> 请访问仓库 https://github.com/JiamingShi-JsPhys/Js_Agent-Skills ，找到我需要的技能文件夹（注明是什么技能名字或者功能），阅读该文件夹下的 `README.md`，并按照其中的说明下载或安装该技能。
 
 每个技能文件夹的 `README.md` 里都写有该技能的获取方式。你只需要告诉 Agent 技能名，剩下的交给它。
 
