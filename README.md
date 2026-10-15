@@ -28,7 +28,7 @@ There are three standard ways to get a skill:
 
 ### Option 1: Download a Release Package (Recommended)
 1. Go to the repository's **Releases** page (right sidebar or tag list).
-2. Download the latest Release zip for the skill you want (e.g., `Js_task-organizer-v1.2.1.zip`).
+2. Download the latest Release zip for the skill you want (e.g., `Js_task-organizer-v1.0.0.zip`).
 3. Unzip it to any directory. No installation step required.
 
 ### Option 2: Fetch via an Agent
