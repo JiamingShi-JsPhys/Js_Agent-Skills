@@ -114,7 +114,7 @@ Js_formula-validator 把一条你没把握的公式变成 pass / fail / unknown 
 
 ---
 
-## 下载与安装
+## 获取与使用
 
 **方式一 —— 下载 Release 包（推荐）**
 
