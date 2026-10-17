@@ -1,0 +1,13 @@
+{
+  "name": "Js_task-organizer",
+  "version": "1.1.0",
+  "description": "Research project organizer for file structure, indexing, broadcasting, deduplication, and export.",
+  "author": "Jiaming Shi",
+  "license": "MIT",
+  "entry": "scripts/run.py",
+  "dependencies": {
+    "python": ">=3.9",
+    "pip": ["openpyxl>=3.1.0", "PyYAML>=6.0"]
+  },
+  "platforms": ["workbuddy", "claude", "codex", "dsh"]
+}

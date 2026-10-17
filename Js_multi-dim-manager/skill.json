@@ -1,0 +1,13 @@
+{
+  "name": "Js_multi-dim-manager",
+  "version": "1.1.0",
+  "description": "Multi-dimensional experiment state manager with axes, time axis, audit, and rollback.",
+  "author": "Jiaming Shi",
+  "license": "MIT",
+  "entry": "scripts/run.py",
+  "dependencies": {
+    "python": ">=3.9",
+    "pip": ["PyYAML>=6.0"]
+  },
+  "platforms": ["workbuddy", "claude", "codex", "dsh"]
+}
