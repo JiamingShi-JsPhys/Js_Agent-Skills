@@ -109,7 +109,7 @@ python install.py --skill Js_formula-validator --scope user
 & ([scriptblock]::Create((irm https://raw.githubusercontent.com/JiamingShi-JsPhys/Js_Agent-Skills/main/install-web.ps1))) -Skill Js_formula-validator
 ```
 
-它会把**本技能**装进 **WorkBuddy**（默认框架）的用户作用域。要选择框架或作用域，加上 `-Frameworks`（`workbuddy`、`claude`、`codex`、`dsh`）或 `-Scope`（`user` 或 `project`）。需要 Windows PowerShell 5.1+，无需 Python——完整参数说明见根目录的 `README.md`。
+它会把**本技能**装进 **Codex**（默认框架）的用户作用域。要选择框架或作用域，加上 `-Frameworks`（`workbuddy`、`claude`、`codex`、`dsh`）或 `-Scope`（`user` 或 `project`）。需要 Windows PowerShell 5.1+，无需 Python——完整参数说明见根目录的 `README.md`。
 
 **方式二 —— 源码包**
 
