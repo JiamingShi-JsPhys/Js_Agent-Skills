@@ -1,0 +1,13 @@
+{
+  "name": "Js_longitudinal-analysis",
+  "version": "1.0.0",
+  "description": "Longitudinal statistical analysis pipeline for LMM, lagged mediation, and sensitivity analyses with reproducible auditing.",
+  "author": "Jiaming Shi",
+  "license": "MIT",
+  "entry": "src/cli.py",
+  "dependencies": {
+    "python": ">=3.9",
+    "pip": ["PyYAML>=6.0", "pandas>=2.0"]
+  },
+  "platforms": ["workbuddy", "claude", "codex", "dsh"]
+}

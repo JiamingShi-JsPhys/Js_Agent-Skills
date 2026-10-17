@@ -1,0 +1,13 @@
+{
+  "name": "Js_document-evolution-tracker",
+  "version": "1.0.0",
+  "description": "Document evolution tracker for version alignment and concept lineage across a family of document versions.",
+  "author": "Jiaming Shi",
+  "license": "MIT",
+  "entry": "src/cli.py",
+  "dependencies": {
+    "python": ">=3.9",
+    "pip": ["PyYAML>=6.0"]
+  },
+  "platforms": ["workbuddy", "claude", "codex", "dsh"]
+}

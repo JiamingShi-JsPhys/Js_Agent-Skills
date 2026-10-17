@@ -1,0 +1,13 @@
+{
+  "name": "Js_conflict-detector",
+  "version": "1.0.0",
+  "description": "Cross-document conflict detector for entity, clause, and argument level contradictions.",
+  "author": "Jiaming Shi",
+  "license": "MIT",
+  "entry": "src/cli.py",
+  "dependencies": {
+    "python": ">=3.9",
+    "pip": ["PyYAML>=6.0"]
+  },
+  "platforms": ["workbuddy", "claude", "codex", "dsh"]
+}
