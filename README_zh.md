@@ -77,7 +77,7 @@ macOS 的双击 `.app`（以及 Linux 的 `.sh`）**计划中、尚未提供**�
 irm https://raw.githubusercontent.com/JiamingShi-JsPhys/Js_Agent-Skills/main/install-web.ps1 | iex
 ```
 
-默认把**所有技能**装到用户作用域的 **WorkBuddy**。要指定技能、框架或作用域，用 scriptblock 形式传参（`| iex` 形式无法带参数）：
+默认把**所有技能**装到用户作用域的 **Codex**。要指定技能、框架或作用域，用 scriptblock 形式传参（`| iex` 形式无法带参数）：
 
 ```powershell
 & ([scriptblock]::Create((irm https://raw.githubusercontent.com/JiamingShi-JsPhys/Js_Agent-Skills/main/install-web.ps1))) -Skill Js_task-organizer -Frameworks workbuddy,claude -Scope user
