@@ -76,7 +76,7 @@ Prefer not to download anything? Run this single command in PowerShell — it fe
 irm https://raw.githubusercontent.com/JiamingShi-JsPhys/Js_Agent-Skills/main/install-web.ps1 | iex
 ```
 
-That installs **all** skills into the user scope of **WorkBuddy** (the default framework). To choose skills, frameworks, or scope, pass parameters via a scriptblock (the `| iex` form cannot take arguments):
+That installs **all** skills into the user scope of **Codex** (the default framework). To choose skills, frameworks, or scope, pass parameters via a scriptblock (the `| iex` form cannot take arguments):
 
 ```powershell
 & ([scriptblock]::Create((irm https://raw.githubusercontent.com/JiamingShi-JsPhys/Js_Agent-Skills/main/install-web.ps1))) -Skill Js_task-organizer -Frameworks workbuddy,claude -Scope user
