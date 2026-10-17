@@ -1,0 +1,13 @@
+{
+  "name": "Js_formula-validator",
+  "version": "1.0.1",
+  "description": "Deterministic CAS verifier for formulas and derivations: parse, dimensional analysis, limit cases, numerical sampling, and symbolic identity proving.",
+  "author": "Jiaming Shi",
+  "license": "MIT",
+  "entry": "scripts/cli.py",
+  "dependencies": {
+    "python": ">=3.9",
+    "pip": ["sympy>=1.12", "numpy>=1.24", "scipy>=1.10", "mpmath>=1.3"]
+  },
+  "platforms": ["workbuddy", "claude", "codex", "dsh"]
+}
