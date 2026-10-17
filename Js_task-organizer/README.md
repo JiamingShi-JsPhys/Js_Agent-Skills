@@ -90,7 +90,7 @@ Or install with a single command, no download required (Windows PowerShell) — 
 & ([scriptblock]::Create((irm https://raw.githubusercontent.com/JiamingShi-JsPhys/Js_Agent-Skills/main/install-web.ps1))) -Skill Js_task-organizer
 ```
 
-That installs **this skill** into the user scope of **WorkBuddy** (the default framework). To pick frameworks or the scope, add `-Frameworks` (`workbuddy`, `claude`, `codex`, `dsh`) or `-Scope` (`user` or `project`). Windows PowerShell 5.1+; no Python required — the full parameter set is documented in the root `README.md`.
+That installs **this skill** into the user scope of **Codex** (the default framework). To pick frameworks or the scope, add `-Frameworks` (`workbuddy`, `claude`, `codex`, `dsh`) or `-Scope` (`user` or `project`). Windows PowerShell 5.1+; no Python required — the full parameter set is documented in the root `README.md`.
 
 **Option 2 — The source archive**
 
